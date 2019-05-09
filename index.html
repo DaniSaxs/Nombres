@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate.css">
     <title>Document</title>
+    <style>
+        *{
+        text-decoration: none;
+        list-style: none;
+        border: 0;
+        outline: inherit;
+        box-sizing: border-box;
+        }
+        .Cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
 
-    <ul>
-        <li>Daniel</li>
-        <li>Cristian</li>
-        <li>Alejandro</li>
-        <li>Manuela</li>
+    <ul class="Cont">
+        <div class="row">
+        <li class="col-md-3"><a href="daniel.html" class="btn btn-primary">Daniel</a></li>
+        <li class="col-md-3"><a href="cristian.html" class="btn btn-warning">Cristian</a></li>
+        <li class="col-md-3"><a href="alejo.html" class="btn btn-danger">Alejo</a></li>
+        <li class="col-md-3"><a href="manu.html" class="btn btn-info">Manuela</a></li>
+        </div>
     </ul>
-    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
